@@ -1,5 +1,5 @@
-import my_module
+import app
 
 
 def test_suma():
-    assert 2 == my_module.suma(1, 1)
+    assert 'hola miax' == app.handler(None, None)
