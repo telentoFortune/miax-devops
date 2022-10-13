@@ -1,4 +1,4 @@
-import app
+import src.lamnda.app as app
 
 
 def test_suma():
