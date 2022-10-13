@@ -57,7 +57,7 @@ jobs:
           service: suma-api
           image: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG 
           access-role-arn: arn:aws:iam::467432373215:role/service-role/AppRunnerECRAccessRole
-          region: $AWS_REGION
+          region: eu-west-1
           cpu : 1
           memory : 2
           wait-for-service-stability: true
